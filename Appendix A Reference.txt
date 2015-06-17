@@ -1,0 +1,26 @@
+Terminal commands
+Reference: http://www.gnu.org/software/bash/manual/bashref.html & http://cli.learncodethehardway.org/bash_cheat_sheet.pdf
+pwd = print working directory - always go home before you a new command!!!
+cd ~ = go home (change directory)
+mkdir = make directory
+what is mkdir -p? = 1 command to do an entire path rather than each addlt time
+quotes around a string will preserve spaces in file name
+cd = change directory
+cd . . = moves up the tree? doesn't work? = NEEDS CD PREFIX
+ls = list contents of a folder
+ls -1R = prints contents of everything below that folder level!
+rmdir = remove directory (empty directory) (you have to be a level above to remove)
+pushd = saves current directory in a list / popd retrieves that location
+touch = new empty file (any file type)?
+cp = copy file
+you can copy and rename something in the same command cp "" dir/
+you can copy to a new a folder in the same command  cp "oldname" "newname"
+need to be in the directory the source files lives in and then specify full destination
+mv = move "object" to "destination" - works with folders and files alike
+less = display text file in terminal and q to quit
+cat = stream contents of txt file to terminal
+rm - remove a file
+rm -rf "dir"= removes all subfiles and the directory
+exit = leave session
+info "command" = info about command!
+compiled language basic flow: write exercises in text editor, run in the terminal with python = python "filename" and you need to be in same directory as the file you want to run 
